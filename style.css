@@ -225,7 +225,7 @@ strong {
 }
 
 .logo a {
-    background: url(https://cdcometolife.wpengine.com/images/logo_caldera-spas.png) no-repeat center center;
+    background: url('https://www.calderaspas.com/wp-content/uploads/2020/04/Caldera-spas-Logo-all-white-no-tl.svg') no-repeat center center;
     background-size: contain;
     display: block;
     height: 52px;
@@ -236,7 +236,7 @@ strong {
 
 /* Open menu Logo style */
 .openmenu .logo a {
-    background-image: url(https://cdcometolife.wpengine.com/images/logo_caldera-spas.png);
+    background-image: url('https://www.calderaspas.com/wp-content/uploads/2020/04/Caldera-spas-Logo-all-white-no-tl.svg');
 }
 
 
@@ -870,6 +870,14 @@ strong {
     width: 470px;
     height: auto;
     margin-left: -100px;
+}
+
+
+#positionImages > div:nth-child(2) > p:nth-child(2),
+#positionImages > div:nth-child(2) > p:nth-child(3) {
+    position: relative;
+    left: -35%;
+    padding-right: 40px;
 }
 
 .positionImageBlock img.transform {
