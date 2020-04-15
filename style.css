@@ -99,11 +99,14 @@ video {
     font: inherit;
     vertical-align: baseline;
     font-weight: normal;
-    font-family: 'Magdelin-Regular', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 400;
 }
 
 * {
     outline: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -118,7 +121,8 @@ h6 {
 h1 {
     font-size: 24px;
     color: #F47A55;
-    font-family: 'Magdelin-Light', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 100;
     text-transform: uppercase;
     font-weight: normal;
     line-height: 24px;
@@ -127,9 +131,15 @@ h1 {
 h2 {
     font-size: 48px;
     color: #F47A55;
-    font-family: 'Magdelin-Bold', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 900;
     line-height: 48px;
     margin-bottom: 0px;
+}
+
+h2.ourPosition {
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 900 !important
 }
 
 h3 {
@@ -143,7 +153,8 @@ h3 {
 h4 {
     font-size: 24px;
     color: #f47a55;
-    font-family: 'Magdelin-Light', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 100;
     line-height: 30px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -153,7 +164,8 @@ h4 {
 h5 {
     font-size: 14px;
     color: #f47a55;
-    font-family: 'Magdelin-Bold', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 900;
     text-transform: uppercase;
 }
 
@@ -203,7 +215,8 @@ sup {
 }
 
 strong {
-    font-family: 'Magdelin-Bold', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 900;
 }
 
 
@@ -243,9 +256,10 @@ strong {
 .lineElement {
     height: 5px;
     width: 118px;
-    background: url("https://cdcometolife.wpengine.com/images/divide_gray.png") center left;
+    background: url("https://www.calderaspas.com/wp-content/uploads/2020/04/divide_gray.svg") no-repeat center left;
     background-size: contain;
     margin-left: -48px;
+
 }
 
 
@@ -257,7 +271,8 @@ strong {
 
 
 .largeParagraph {
-    font-family: 'Magdelin-Light', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 100;
     font-size: 36px !important;
     line-height: 42px;
     padding: 0 100px;
@@ -267,8 +282,9 @@ strong {
 }
 
 .largeParagraph p {
-    font-family: 'Magdelin-Light';
+    font-family: 'Magdelin';
     font-size: 30px !important;
+    font-weight: 100 !important;
     line-height: 36px;
     text-align: center;
     margin: 40px 0 100px;
@@ -277,7 +293,8 @@ strong {
 }
 
 .flowingContent {
-    font-family: 'Magdelin-Light', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 100;
     font-size: 24px;
     line-height: 30px;
     padding: 0 100px;
@@ -292,10 +309,6 @@ strong {
 .flowingContent li {
     margin-left: 1em;
 }
-
-
-
-
 
 .sub-section {
     margin-bottom: 100px;
@@ -375,20 +388,20 @@ strong {
     grid-column-end: span 2;
     box-shadow: 5px 5px 10px -7px #777, -5px -5px 10px -7px #777;
     transform: scale(0.95) translateZ(0);
-        -webkit-transform: scale(0.95) translateZ(0);
-        -moz-transform: scale(0.95) translateZ(0);
-        -ms-transform: scale(0.95) translateZ(0);
-        -o-transform: scale(0.95) translateZ(0);
+    -webkit-transform: scale(0.95) translateZ(0);
+    -moz-transform: scale(0.95) translateZ(0);
+    -ms-transform: scale(0.95) translateZ(0);
+    -o-transform: scale(0.95) translateZ(0);
     transition-duration: 333ms;
-        -webkit-transition-duration: 333ms;
-        -moz-transition-duration: 333ms;
-        -ms-transition-duration: 333ms;
-        -o-transition-duration: 333ms;
+    -webkit-transition-duration: 333ms;
+    -moz-transition-duration: 333ms;
+    -ms-transition-duration: 333ms;
+    -o-transition-duration: 333ms;
     border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .imageDemographic:hover>.imageLayering img:nth-child(2),
@@ -427,7 +440,7 @@ strong {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     width: 50px;
     text-align: center;
-    background-image: url(https://cdcometolife.wpengine.com/images/img_arrow-up.svg);
+    background-image: url("https://www.calderaspas.com/wp-content/uploads/2020/04/img__arrow-up.svg");
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -495,7 +508,8 @@ strong {
 
 
 #menu_dropdown li.menuSection a {
-    font-family: 'Magdelin-Light', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 100;
 }
 
 #menu_dropdown .menuItems {
@@ -572,7 +586,8 @@ strong {
 }
 
 #fmaText h1 {
-    font-family: 'Magdelin-Light', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 100;
     text-transform: uppercase;
     color: #FFF;
     font-size: 50px;
@@ -581,9 +596,6 @@ strong {
 }
 
 #fma #wave {
-    /*
-	background: url("https://cdcometolife.wpengine.com/images/fma_wave.png") bottom center no-repeat;
-	*/
     position: absolute;
     z-index: 2;
     height: calc(100vw * (844 / 1920));
@@ -594,6 +606,7 @@ strong {
     justify-content: center;
     -webkit-box-align: end;
     align-items: flex-end;
+
 }
 
 #fma #wave img {
@@ -714,7 +727,7 @@ strong {
     right: -22px;
     top: -22px;
     text-indent: -9999px;
-    background: url(https://cdcometolife.wpengine.com/images/_x.png) center center no-repeat #f47a55;
+    background: url("https://www.calderaspas.com/wp-content/uploads/2020/04/x.png") center center no-repeat #f47a55;
     background-size: 33.333333%;
     height: 44px;
     width: 44px;
@@ -792,7 +805,8 @@ strong {
     text-align: center;
     padding: 0 140px;
     color: #a19b94;
-    font-family: 'Magdelin-Regular', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 400;
 }
 
 #intro sup {
@@ -807,7 +821,7 @@ strong {
 /* -------------------------------------------------------------------------- */
 
 #position {
-    background: url("https://cdcometolife.wpengine.com/images/bg_ellipse.gif") top left no-repeat;
+    background: url("https://www.calderaspas.com/wp-content/uploads/2020/04/bg_ellipse.svg") top left no-repeat;
 }
 
 #positionImages {
@@ -872,14 +886,6 @@ strong {
     margin-left: -100px;
 }
 
-
-#positionImages > div:nth-child(2) > p:nth-child(2),
-#positionImages > div:nth-child(2) > p:nth-child(3) {
-    position: relative;
-    left: -35%;
-    padding-right: 40px;
-}
-
 .positionImageBlock img.transform {
     width: 1051px;
     height: auto;
@@ -896,10 +902,6 @@ strong {
     color: #6e6e71;
 }
 
-
-
-
-
 .timeItem {
     height: 680px;
     position: relative;
@@ -913,7 +915,9 @@ strong {
     position: absolute;
     bottom: 70px;
     left: 60px;
-    font-family: Magdelin-Light, sans-serif !important;
+    font-family: Magdelin, sans-serif !important;
+
+    font-weight: 100;
     letter-spacing: 2px;
 }
 
@@ -958,14 +962,17 @@ selector .flowingContent ul li::before {
     width: 100%;
     height: 738px;
     /* 858*/
-    font-family: Magdelin-Light, sans-serif !important;
+    font-family: Magdelin, sans-serif !important;
+
+    font-weight: 100;
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
-    font-family: 'Magdelin-Bold', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 900;
     text-transform: capitalize;
     padding-top: 120px;
 }
@@ -982,7 +989,9 @@ selector .flowingContent ul li::before {
 }
 
 #time-content .largeParagraph p {
-    font-family: Magdelin-Light, sans-serif !important;
+    font-family: Magdelin, sans-serif !important;
+
+    font-weight: 100;
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
@@ -1073,7 +1082,8 @@ selector .flowingContent ul li::before {
 }
 
 #demographics h2 {
-    font-family: 'Magdelin-Light', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 100;
     margin-bottom: 0.5em;
     font-size: 48px;
     line-height: 1.2em;
@@ -1202,8 +1212,8 @@ selector .flowingContent ul li::before {
 }
 
 /* used for touch display */
-.colorSwatch:active{
-cursor: grabber;
+.colorSwatch:active {
+    cursor: grabber;
 }
 
 .colorSwatch p.name {
@@ -1281,7 +1291,8 @@ cursor: grabber;
     line-height: 72px;
     margin-bottom: 0.5em;
     letter-spacing: -2px;
-    font-family: 'Magdelin-Bold', sans-serif !important;
+    font-family: 'Magdelin', sans-serif !important;
+    font-weight: 900;
     color: #F47A55;
 }
 
@@ -1437,12 +1448,12 @@ cursor: grabber;
 
 @media (max-width: 1430px) {
     #photographyGrid div img.show {
-        transform: scale(calc(0.2 + (1 - 0.2) * ((100vw - 350px) / (1430 - 350))))translateZ(0)!important;
-        -webkit-transform: scale(calc(0.2 + (1 - 0.2) * ((100vw - 350px) / (1430 - 350))))translateZ(0)!important;
-        -moz-transform: scale(calc(0.2 + (1 - 0.2) * ((100vw - 350px) / (1430 - 350))))translateZ(0)!important;
-        -ms-transform: scale(calc(0.2 + (1 - 0.2) * ((100vw - 350px) / (1430 - 350))))translateZ(0)!important;
-        -o-transform: scale(calc(0.2 + (1 - 0.2) * ((100vw - 350px) / (1430 - 350))))translateZ(0)!important;
-}
+        transform: scale(calc(0.2 + (1 - 0.2) * ((100vw - 350px) / (1430 - 350))))translateZ(0) !important;
+        -webkit-transform: scale(calc(0.2 + (1 - 0.2) * ((100vw - 350px) / (1430 - 350))))translateZ(0) !important;
+        -moz-transform: scale(calc(0.2 + (1 - 0.2) * ((100vw - 350px) / (1430 - 350))))translateZ(0) !important;
+        -ms-transform: scale(calc(0.2 + (1 - 0.2) * ((100vw - 350px) / (1430 - 350))))translateZ(0) !important;
+        -o-transform: scale(calc(0.2 + (1 - 0.2) * ((100vw - 350px) / (1430 - 350))))translateZ(0) !important;
+    }
 }
 
 #photographyGrid div:nth-child(1) {
@@ -1668,14 +1679,6 @@ cursor: grabber;
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
 #footer {
     margin: 0 0 220px;
 }
@@ -1712,38 +1715,30 @@ cursor: grabber;
 }
 
 #footer .social li a.facebookLink {
-    background-image: url(https://cdcometolife.wpengine.com/images/icon_fb.svg);
+    background-image: url("https://www.calderaspas.com/wp-content/uploads/2020/04/icon_fb.svg") no-repeat;
 }
 
 #footer .social li a.twitterLink {
-    background-image: url(https://cdcometolife.wpengine.com/images/icon_tw.svg);
+    background-image: url("https://www.calderaspas.com/wp-content/uploads/2020/04/icon_tw.svg") no-repeat;
 }
 
 #footer .social li a.youtubeLink {
-    background-image: url(https://cdcometolife.wpengine.com/images/icon_yt.svg);
+    background-image: url("https://www.calderaspas.com/wp-content/uploads/2020/04/icon_yt.svg") no-repeat;
 }
 
 #footer .social li a.houzzLink {
-    background-image: url(https://cdcometolife.wpengine.com/images/icon_hz.svg);
+    background-image: url("https://www.calderaspas.com/wp-content/uploads/2020/04/icon_hz.svg") no-repeat;
 }
 
 #footer .social li a.pinterestLink {
-    background-image: url(https://cdcometolife.wpengine.com/images/icon_pn.svg);
+    background-image: url("https://www.calderaspas.com/wp-content/uploads/2020/04/icon_pn.svg") no-repeat;
 }
 
 #footer .social li a.instagramLink {
-    background-image: url(https://cdcometolife.wpengine.com/images/icon_ig.svg);
+    background-image: url("https://www.calderaspas.com/wp-content/uploads/2020/04/icon_ig.svg") no-repeat;
 }
 
 
-/*
- ___ ___ ___ ___  ___  _  _ ___ _____   _____ 
-| _ \ __/ __| _ \/ _ \| \| / __|_ _\ \ / / __|
-|   / _|\__ \  _/ (_) | .` \__ \| | \ V /| _| 
-|_|_\___|___/_|  \___/|_|\_|___/___| \_/ |___|
-
-
-*/
 
 
 /*
@@ -1948,10 +1943,6 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
         display: none;
     }
 
-
-
-
-
     #logoSectionGrid {
         width: 100%;
         -ms-grid-rows: 290px 30px 290px;
@@ -1985,8 +1976,6 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
         grid-template-columns: 50% 50%;
     }
 
-
-
     #downloads {
         display: block;
     }
@@ -2000,7 +1989,6 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
         grid-template-columns: 1fr 30px 220px 30px 1fr;
         margin-bottom: 1em;
     }
-
 
     #footer {
         margin-bottom: 100px;
@@ -2023,10 +2011,29 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
 }
 
 
+/*
+====================================================================
+====================================================================
+   _  __ __  _________  __________  ___________    _________  _ 
+  -  /  V  \ \   _____\ \   ____  \ \___   ____\  / _____   |  -
+ -  / / V \ \ \   __\__  \  \___\  | ____\  \___  \  \___\   \  -
+_  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
+
+           ipad landscape
+====================================================================
+====================================================================
+*/
+
 
 /* LARGE MOBILE and TABLET PORTRAIT - DOWN*/
-@media only screen and (max-width:1023px) {
+@media only screen and (max-width:1024px) {
 
+    #positionImages>div:nth-child(2)>p:nth-child(2),
+    #positionImages>div:nth-child(2)>p:nth-child(3) {
+        position: relative;
+
+        padding-right: 40px;
+    }
 
     #menu_dropdown {
         padding-top: 150px;
@@ -2161,16 +2168,45 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
         margin-left: auto;
         margin-right: auto;
     }
-
-
-
-
 }
+
+/*
+====================================================================
+====================================================================
+   _  __ __  _________  __________  ___________    _________  _ 
+  -  /  V  \ \   _____\ \   ____  \ \___   ____\  / _____   |  -
+ -  / / V \ \ \   __\__  \  \___\  | ____\  \___  \  \___\   \  -
+_  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
+
+                           Mobile begin
+                           
+====================================================================
+====================================================================
+*/
 
 
 /* Mobile Styles */
 @media only screen and (max-width: 767px) {
 
+
+
+    #positionImages>div:nth-child(2)>p:nth-child(2),
+    #positionImages>div:nth-child(2)>p:nth-child(3),
+    #positionImages>div:nth-child(3)>p:nth-child(2),
+    #positionImages>div:nth-child(3)>p:nth-child(3) {
+        position: relative;
+        left: -15%;
+        padding-right: 40px;
+    }
+
+    .positionImageBlock p:nth-child(1) {
+        width: auto
+    }
+
+    #positionImageGrouped>div>p:nth-child(1)>img {
+        position: relative;
+        left: 10%;
+    }
 
     .inner-container {
         width: 90%;
@@ -2180,9 +2216,6 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
         display: block;
     }
 
-    /*
-	#floater { left: auto; right: 0; }
-	*/
 
     #menu {
         height: 60px;
@@ -2215,7 +2248,7 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
 
 
     #fma {
-        background: url("https://cdcometolife.wpengine.com/images/img_caldera_fma_poster.jpg") center center no-repeat;
+        background: url("https://www.calderaspas.com/wp-content/uploads/2020/04/img_caldera_fma_poster.jpg") center center no-repeat;
     }
 
     #fma #wave {
@@ -2223,8 +2256,12 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
     }
 
     #fmaText {
-        width: 80%;
+        width: 100%;
         padding: 0 10%;
+    }
+
+    #intro p:nth-of-type(3) {
+        margin: 30px auto 5px;
     }
 
     #videoLoop video {
@@ -2251,7 +2288,7 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
 
     .transform {
         margin: 0;
-        max-width: calc(100vw - 30px);
+        max-width: calc(100vw - 100px);
         position: relative;
         left: 15px;
     }
@@ -2337,8 +2374,13 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
         margin-left: -5%;
     }
 
+    #timeHeader  {
+        min-width: 100vw;
+        margin: 0;
+    }
+
     #voice {
-        width: 100%;
+        min-width: 100%;
     }
 
     #voice .lineElement {
@@ -2346,7 +2388,7 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
     }
 
     #voice .inner-container {
-        width: 100%;
+        width: 100vw;
     }
 
     #voice .inner-container h2 {
@@ -2383,8 +2425,9 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
     }
 
     #voice .rightJustifiedImage img {
-        width: 100%;
+        min-width: 100vw;
         height: auto;
+        margin: 0;
     }
 
     #audience .lineElement {
@@ -2474,6 +2517,7 @@ _  /_/_    \_\ \________\ \_______/_ \___________\ \______|\__\  -
         width: 50%;
         margin-bottom: 0;
     }
+
 
     #typographyElements,
     #typoExamples {
